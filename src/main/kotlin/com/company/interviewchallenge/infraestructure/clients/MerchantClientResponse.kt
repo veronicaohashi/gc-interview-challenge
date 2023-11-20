@@ -14,7 +14,7 @@ data class MerchantClientResponse(
     fun toDomain() = Merchant(
         iban = this.iban,
         discount = TransactionDiscount(
-            discount = this.discount.feesDiscount,
+            discountRatio = this.discount.feesDiscount,
             minimumTransaction = this.discount.minimumTransactionCount
         ),
         transactions = this.transactions.map {

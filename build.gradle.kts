@@ -27,6 +27,8 @@ dependencies {
     implementation("com.github.kittinunf.fuel:fuel:$fuelVersion")
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
     implementation("com.fasterxml.jackson.core:jackson-annotations:2.15.3")
+    // https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml
+    implementation("org.apache.poi:poi-ooxml:5.2.4")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     // https://mvnrepository.com/artifact/org.amshove.kluent/kluent
