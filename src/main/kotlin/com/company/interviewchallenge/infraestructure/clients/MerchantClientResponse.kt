@@ -1,4 +1,4 @@
-package com.company.interviewchallenge.infraestructure
+package com.company.interviewchallenge.infraestructure.clients
 
 import com.fasterxml.jackson.annotation.JsonProperty
 import java.math.BigDecimal

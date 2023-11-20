@@ -1,4 +1,4 @@
-package com.company.interviewchallenge.infraestructure
+package com.company.interviewchallenge.infraestructure.clients
 
 import com.company.interviewchallenge.infraestructure.exceptions.ClientException
 import com.github.kittinunf.fuel.Fuel
