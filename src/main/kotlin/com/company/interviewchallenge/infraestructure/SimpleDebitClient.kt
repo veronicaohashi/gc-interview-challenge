@@ -25,4 +25,20 @@ class SimpleDebitClient(
 
         return result.get()
     }
+
+    fun getMerchantsById(id: String): MerchantClientResponse {
+        val (_, _, result) = Fuel.get("$baseUrl/merchants/$id")
+            .header("Content-Type", "application/json")
+            .responseObject<MerchantClientResponse>()
+
+        result.failure {
+            throw ClientException(
+                status = it.response.statusCode,
+                reason = it.response.responseMessage,
+                cause = it
+            )
+        }
+
+        return result.get()
+    }
 }

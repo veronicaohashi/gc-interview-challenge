@@ -1,5 +1,6 @@
 package com.company.interviewchallenge
 
+import com.company.interviewchallenge.stub.WiremockStubHelper
 import com.github.tomakehurst.wiremock.WireMockServer
 import com.github.tomakehurst.wiremock.common.ConsoleNotifier
 import com.github.tomakehurst.wiremock.core.WireMockConfiguration

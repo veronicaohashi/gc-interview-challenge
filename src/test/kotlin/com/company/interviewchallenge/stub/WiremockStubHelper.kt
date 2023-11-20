@@ -1,6 +1,5 @@
-package com.company.interviewchallenge
+package com.company.interviewchallenge.stub
 
-import com.company.interviewchallenge.infraestructure.stub.SimpleDebitStub
 import com.github.tomakehurst.wiremock.WireMockServer
 
 class WiremockStubHelper(private val server: WireMockServer) {
