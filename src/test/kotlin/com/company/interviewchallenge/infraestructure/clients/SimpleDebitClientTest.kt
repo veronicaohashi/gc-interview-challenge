@@ -44,11 +44,11 @@ class SimpleDebitClientTest : IntegrationTest() {
         val expectedIban = "GB2756386333762976"
         val expectedFeesDiscount = BigDecimal(7)
         val expectedMinimumTransactionCount = 49
-        val expectedFirstTransaction = Transaction(
+        val expectedFirstTransaction = TransactionClientResponse(
             amount = BigDecimal(54869),
             fee = BigDecimal(290)
         )
-        val expectedSecondTransaction = Transaction(
+        val expectedSecondTransaction = TransactionClientResponse(
             amount = BigDecimal(50033),
             fee = BigDecimal(297)
         )

@@ -33,7 +33,10 @@ dependencies {
     testImplementation("org.amshove.kluent:kluent:1.73")
     // https://mvnrepository.com/artifact/com.github.tomakehurst/wiremock-standalone
     testImplementation("com.github.tomakehurst:wiremock-standalone:2.27.2")
+    // https://mvnrepository.com/artifact/io.mockk/mockk
+    testImplementation("io.mockk:mockk:1.13.5")
 }
+
 configurations {
     all {
         exclude(group = "org.springframework.boot", module = "spring-boot-starter-logging")
