@@ -1,4 +1,4 @@
-package com.company.interviewchallenge.infraestructure.exception
+package com.company.interviewchallenge.infraestructure.exceptions
 
 class ClientException(
     val status: Int,

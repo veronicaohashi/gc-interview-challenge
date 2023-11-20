@@ -1,7 +1,7 @@
 package com.company.interviewchallenge.infraestructure
 
 import com.company.interviewchallenge.IntegrationTest
-import com.company.interviewchallenge.infraestructure.exception.ClientException
+import com.company.interviewchallenge.infraestructure.exceptions.ClientException
 import org.amshove.kluent.invoking
 import org.amshove.kluent.`should be equal to`
 import org.amshove.kluent.`should not be null`

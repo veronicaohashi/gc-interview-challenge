@@ -1,6 +1,6 @@
 package com.company.interviewchallenge.infraestructure
 
-import com.company.interviewchallenge.infraestructure.exception.ClientException
+import com.company.interviewchallenge.infraestructure.exceptions.ClientException
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.jackson.responseObject
 import com.github.kittinunf.result.failure
